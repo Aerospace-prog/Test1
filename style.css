@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    text-align: center;
+    margin: 30px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+h2{
+    text-align: center;
+    margin: 20px;
+}
+span{
+   margin: 190px;
+   font-size: 20px;
+}
+
+form{
+    margin-left: 550px;
+}
+footer{
+    text-align: center;
+    background-color: lightcyan;
+}
+@media only screen and (max-width: 768px) {
+    body {
+        display: grid;
+        grid-template-columns: 50px;
+        grid-gap: 200px;
+        
+    }
+}
+@media only screen and (max-width: 1024px) {
+    body {
+        display: grid;
+        grid-template-columns: 50px 50px 50px;
+        grid-gap: 200px;
+        
+    }
+}
+.contactform{
+    background-color: azure;
+}
+.detail{
+    background-color: gray;
+}
+.about{
+    background-color: #4e95f4;
+}
+
+
+#projectTable{
+		width:100%; 
+		border-collapse:collapse; 
+	}
+#projectTable td{ 
+		padding:7px; border:#4e95f4 1px solid;
+	}
+	
+#projectTable tr{
+		background: #b8d1f3;
+	}
+	
+#projectTable tr:hover {
+          background-color: #ffff99;
+    }
+
